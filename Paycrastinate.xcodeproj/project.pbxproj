@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5750A6A21F3D4CD00876211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5750A6921F3D4CD00876211 /* AppDelegate.swift */; };
+		A5750A6D21F3D4CD00876211 /* Paycrastinate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5750A6B21F3D4CD00876211 /* Paycrastinate.xcdatamodeld */; };
+		A5750A6F21F3D4CD00876211 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5750A6E21F3D4CD00876211 /* MasterViewController.swift */; };
+		A5750A7121F3D4CD00876211 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5750A7021F3D4CD00876211 /* DetailViewController.swift */; };
+		A5750A7421F3D4CD00876211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5750A7221F3D4CD00876211 /* Main.storyboard */; };
+		A5750A7621F3D4CE00876211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5750A7521F3D4CE00876211 /* Assets.xcassets */; };
+		A5750A7921F3D4CE00876211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5750A7721F3D4CE00876211 /* LaunchScreen.storyboard */; };
+		A5750A8421F3D4CE00876211 /* PaycrastinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5750A8321F3D4CE00876211 /* PaycrastinateTests.swift */; };
+		A5750A8F21F3D4CE00876211 /* PaycrastinateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5750A8E21F3D4CE00876211 /* PaycrastinateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5750A8021F3D4CE00876211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5750A5E21F3D4CD00876211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5750A6521F3D4CD00876211;
+			remoteInfo = Paycrastinate;
+		};
+		A5750A8B21F3D4CE00876211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5750A5E21F3D4CD00876211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5750A6521F3D4CD00876211;
+			remoteInfo = Paycrastinate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5750A6621F3D4CD00876211 /* Paycrastinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paycrastinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5750A6921F3D4CD00876211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5750A6C21F3D4CD00876211 /* Paycrastinate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paycrastinate.xcdatamodel; sourceTree = "<group>"; };
+		A5750A6E21F3D4CD00876211 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A5750A7021F3D4CD00876211 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5750A7321F3D4CD00876211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5750A7521F3D4CE00876211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5750A7821F3D4CE00876211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5750A7A21F3D4CE00876211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5750A7F21F3D4CE00876211 /* PaycrastinateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaycrastinateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5750A8321F3D4CE00876211 /* PaycrastinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaycrastinateTests.swift; sourceTree = "<group>"; };
+		A5750A8521F3D4CE00876211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5750A8A21F3D4CE00876211 /* PaycrastinateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaycrastinateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5750A8E21F3D4CE00876211 /* PaycrastinateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaycrastinateUITests.swift; sourceTree = "<group>"; };
+		A5750A9021F3D4CE00876211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5750A6321F3D4CD00876211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A7C21F3D4CE00876211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A8721F3D4CE00876211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5750A5D21F3D4CD00876211 = {
+			isa = PBXGroup;
+			children = (
+				A5750A6821F3D4CD00876211 /* Paycrastinate */,
+				A5750A8221F3D4CE00876211 /* PaycrastinateTests */,
+				A5750A8D21F3D4CE00876211 /* PaycrastinateUITests */,
+				A5750A6721F3D4CD00876211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5750A6721F3D4CD00876211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5750A6621F3D4CD00876211 /* Paycrastinate.app */,
+				A5750A7F21F3D4CE00876211 /* PaycrastinateTests.xctest */,
+				A5750A8A21F3D4CE00876211 /* PaycrastinateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5750A6821F3D4CD00876211 /* Paycrastinate */ = {
+			isa = PBXGroup;
+			children = (
+				A5750A6921F3D4CD00876211 /* AppDelegate.swift */,
+				A5750A6E21F3D4CD00876211 /* MasterViewController.swift */,
+				A5750A7021F3D4CD00876211 /* DetailViewController.swift */,
+				A5750A7221F3D4CD00876211 /* Main.storyboard */,
+				A5750A7521F3D4CE00876211 /* Assets.xcassets */,
+				A5750A7721F3D4CE00876211 /* LaunchScreen.storyboard */,
+				A5750A7A21F3D4CE00876211 /* Info.plist */,
+				A5750A6B21F3D4CD00876211 /* Paycrastinate.xcdatamodeld */,
+			);
+			path = Paycrastinate;
+			sourceTree = "<group>";
+		};
+		A5750A8221F3D4CE00876211 /* PaycrastinateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5750A8321F3D4CE00876211 /* PaycrastinateTests.swift */,
+				A5750A8521F3D4CE00876211 /* Info.plist */,
+			);
+			path = PaycrastinateTests;
+			sourceTree = "<group>";
+		};
+		A5750A8D21F3D4CE00876211 /* PaycrastinateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5750A8E21F3D4CE00876211 /* PaycrastinateUITests.swift */,
+				A5750A9021F3D4CE00876211 /* Info.plist */,
+			);
+			path = PaycrastinateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5750A6521F3D4CD00876211 /* Paycrastinate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5750A9321F3D4CF00876211 /* Build configuration list for PBXNativeTarget "Paycrastinate" */;
+			buildPhases = (
+				A5750A6221F3D4CD00876211 /* Sources */,
+				A5750A6321F3D4CD00876211 /* Frameworks */,
+				A5750A6421F3D4CD00876211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paycrastinate;
+			productName = Paycrastinate;
+			productReference = A5750A6621F3D4CD00876211 /* Paycrastinate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5750A7E21F3D4CE00876211 /* PaycrastinateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5750A9621F3D4CF00876211 /* Build configuration list for PBXNativeTarget "PaycrastinateTests" */;
+			buildPhases = (
+				A5750A7B21F3D4CE00876211 /* Sources */,
+				A5750A7C21F3D4CE00876211 /* Frameworks */,
+				A5750A7D21F3D4CE00876211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5750A8121F3D4CE00876211 /* PBXTargetDependency */,
+			);
+			name = PaycrastinateTests;
+			productName = PaycrastinateTests;
+			productReference = A5750A7F21F3D4CE00876211 /* PaycrastinateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5750A8921F3D4CE00876211 /* PaycrastinateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5750A9921F3D4CF00876211 /* Build configuration list for PBXNativeTarget "PaycrastinateUITests" */;
+			buildPhases = (
+				A5750A8621F3D4CE00876211 /* Sources */,
+				A5750A8721F3D4CE00876211 /* Frameworks */,
+				A5750A8821F3D4CE00876211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5750A8C21F3D4CE00876211 /* PBXTargetDependency */,
+			);
+			name = PaycrastinateUITests;
+			productName = PaycrastinateUITests;
+			productReference = A5750A8A21F3D4CE00876211 /* PaycrastinateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5750A5E21F3D4CD00876211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Awake;
+				TargetAttributes = {
+					A5750A6521F3D4CD00876211 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A5750A7E21F3D4CE00876211 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5750A6521F3D4CD00876211;
+					};
+					A5750A8921F3D4CE00876211 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5750A6521F3D4CD00876211;
+					};
+				};
+			};
+			buildConfigurationList = A5750A6121F3D4CD00876211 /* Build configuration list for PBXProject "Paycrastinate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5750A5D21F3D4CD00876211;
+			productRefGroup = A5750A6721F3D4CD00876211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5750A6521F3D4CD00876211 /* Paycrastinate */,
+				A5750A7E21F3D4CE00876211 /* PaycrastinateTests */,
+				A5750A8921F3D4CE00876211 /* PaycrastinateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5750A6421F3D4CD00876211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5750A7921F3D4CE00876211 /* LaunchScreen.storyboard in Resources */,
+				A5750A7621F3D4CE00876211 /* Assets.xcassets in Resources */,
+				A5750A7421F3D4CD00876211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A7D21F3D4CE00876211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A8821F3D4CE00876211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5750A6221F3D4CD00876211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5750A6D21F3D4CD00876211 /* Paycrastinate.xcdatamodeld in Sources */,
+				A5750A6A21F3D4CD00876211 /* AppDelegate.swift in Sources */,
+				A5750A6F21F3D4CD00876211 /* MasterViewController.swift in Sources */,
+				A5750A7121F3D4CD00876211 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A7B21F3D4CE00876211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5750A8421F3D4CE00876211 /* PaycrastinateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5750A8621F3D4CE00876211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5750A8F21F3D4CE00876211 /* PaycrastinateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5750A8121F3D4CE00876211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5750A6521F3D4CD00876211 /* Paycrastinate */;
+			targetProxy = A5750A8021F3D4CE00876211 /* PBXContainerItemProxy */;
+		};
+		A5750A8C21F3D4CE00876211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5750A6521F3D4CD00876211 /* Paycrastinate */;
+			targetProxy = A5750A8B21F3D4CE00876211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5750A7221F3D4CD00876211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5750A7321F3D4CD00876211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5750A7721F3D4CE00876211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5750A7821F3D4CE00876211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5750A9121F3D4CF00876211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5750A9221F3D4CF00876211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5750A9421F3D4CF00876211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paycrastinate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.Paycrastinate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5750A9521F3D4CF00876211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paycrastinate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.Paycrastinate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5750A9721F3D4CF00876211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaycrastinateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.PaycrastinateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paycrastinate.app/Paycrastinate";
+			};
+			name = Debug;
+		};
+		A5750A9821F3D4CF00876211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaycrastinateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.PaycrastinateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paycrastinate.app/Paycrastinate";
+			};
+			name = Release;
+		};
+		A5750A9A21F3D4CF00876211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaycrastinateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.PaycrastinateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paycrastinate;
+			};
+			name = Debug;
+		};
+		A5750A9B21F3D4CF00876211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaycrastinateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awakeorg.PaycrastinateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paycrastinate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5750A6121F3D4CD00876211 /* Build configuration list for PBXProject "Paycrastinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5750A9121F3D4CF00876211 /* Debug */,
+				A5750A9221F3D4CF00876211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5750A9321F3D4CF00876211 /* Build configuration list for PBXNativeTarget "Paycrastinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5750A9421F3D4CF00876211 /* Debug */,
+				A5750A9521F3D4CF00876211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5750A9621F3D4CF00876211 /* Build configuration list for PBXNativeTarget "PaycrastinateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5750A9721F3D4CF00876211 /* Debug */,
+				A5750A9821F3D4CF00876211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5750A9921F3D4CF00876211 /* Build configuration list for PBXNativeTarget "PaycrastinateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5750A9A21F3D4CF00876211 /* Debug */,
+				A5750A9B21F3D4CF00876211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5750A6B21F3D4CD00876211 /* Paycrastinate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5750A6C21F3D4CD00876211 /* Paycrastinate.xcdatamodel */,
+			);
+			currentVersion = A5750A6C21F3D4CD00876211 /* Paycrastinate.xcdatamodel */;
+			path = Paycrastinate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5750A5E21F3D4CD00876211 /* Project object */;
+}
